@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#GIMNASIOUNOVA #contenido {
+    background-color:#cdcdcd;
+	width: auto;
+    height: auto;
+	display: inline-block;
+}
+
+#titulosdesubpaginas {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px; 
+    text-align: center;
+	padding: 25px 100px;
+}
+
+#contenido img {
+    width: 600px;
+	height: 353px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#contenido p {
+    text-align: justify;
+    padding: 15px 45px;
+}
+
+#contenedor {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    background-color: lab(69.15% 7.12 -6.16);
+}

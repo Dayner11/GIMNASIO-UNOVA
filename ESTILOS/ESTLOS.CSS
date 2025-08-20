@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url("MENU.CSS");
+@import url("CARRUSEL.CSS");
+@import url("NOVEDADES.CSS");
+@import url("CONTENIDO.CSS");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../IMAGENES/PORTADA.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    width: 1150px;
+    height: 80px;
+    background-color: hwb(286 0% 87%);
+}
+
+#contenedor {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    background-color: lab(69.15% 7.12 -6.16);
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 44px;
+    padding: 10px 150px;
+    text-align: center;
+}
+
+/* footer  */
+
+footer {
+	width: auto;
+	height: 200px;
+	background-color: lab(69.15% 7.12 -6.16);
+	border-top: 5px solid #4a4a4a;
+	display: block;
+}
+
+
+#parrafo {
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	padding: 25px;
+	line-height: 22px;
+    font-size: 16px;
+}
+
+
+footer #redes{
+	
+	padding: 1px 355px;
+    text-align: center;
+    letter-spacing: 10px;
+	
+}
+
+
